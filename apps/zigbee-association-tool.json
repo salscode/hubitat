@@ -1,0 +1,26 @@
+{
+    "packageName": "ZigBee Association Tool",
+    "minimumHEVersion": "2.1.9",
+    "author": "Sal Sodano",
+    "version": "1.0.0",
+    "dateReleased": "2023-02-20",
+    "apps" : [
+        {
+            "id" : "cabc6faf-fd62-4a2d-aff9-78dcb39dd5e3",
+            "name": "ZigBee Association Tool",
+            "namespace": "salscode",
+            "location": "https://raw.githubusercontent.com/salscode/hubitat/main/apps/zigbee-association/zigbee-association-tool.groovy",
+            "required": true,
+            "oauth": false,
+            "primary": true
+        },
+        {
+            "id" : "eaaef249-3202-4c22-a220-7bcc48407a9f",
+            "name": "ZigBee Association",
+            "namespace": "salscode",
+            "location": "https://raw.githubusercontent.com/salscode/hubitat/main/apps/zigbee-association/zigbee-association.groovy",
+            "required": true,
+            "oauth": false
+        }
+    ]
+ }
