@@ -1,0 +1,13 @@
+{
+    "author": "Sal Sodano",
+    "gitHubUrl": "https://github.com/salscode/hubitat",
+    "payPalUrl": "",
+    "packages": [
+        {
+            "name": "ZigBee Binding Tool",
+            "category": "My Apps",
+            "location": "https://raw.githubusercontent.com/salscode/hubitat/main/apps/zigbee-binding-tool.json",
+            "description": "Create direct bindings between ZigBee devices."
+        }
+    ]
+ }
