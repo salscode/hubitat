@@ -5,6 +5,7 @@ definition(
     description: "Create direct bindings between ZigBee devices.",
     category: "My Apps",
     singleInstance: true,
+    importUrl: "https://raw.githubusercontent.com/salscode/hubitat/main/apps/zigbee-binding/zigbee-binding-tool.groovy",
     iconUrl: "",
     iconX2Url: "",
     iconX3Url: "")
