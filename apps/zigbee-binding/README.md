@@ -1,14 +1,14 @@
-# ZigBee Association Tool
+# ZigBee Binding Tool
 
 Only tested with Inovelli Blue Switches and a handful of ZigBee bulbs.
 
 ## Install
 
-Make sure to install both the ZigBee Association Tool and the ZigBee Association apps.
+Make sure to install both the ZigBee Binding Tool and the ZigBee Binding apps.
 
 ## Functionality
 
-After adding the ZigBee Association Tool app, open it up and click Create New Association.
+After adding the ZigBee Binding Tool app, open it up and click Create New Binding.
 
 This page let's you do two pieces of functionality within one page.
 

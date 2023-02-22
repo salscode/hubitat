@@ -1,26 +1,26 @@
 /**
- *  ZigBee Association
+ *  ZigBee Binding
  *  Author: Sal Sodano (salscode)
  *  Date: 2023-02-20
  *
  */
 
 definition(
-    name: "ZigBee Association",
+    name: "ZigBee Binding",
     namespace: "salscode",
     author: "Sal Sodano",
-    description: "An app to create direct associations between two ZigBee devices.",
+    description: "Create direct bindings between ZigBee devices.",
     category: "My Apps",
 
-    parent: "salscode:ZigBee Association Tool",
+    parent: "salscode:ZigBee Binding Tool",
     iconUrl: "",
     iconX2Url: "",
     iconX3Url: "")
 
 
 preferences {
-    page name: "mainPage", title: "Associate ZigBee Devices", install: false, uninstall: true, nextPage: "namePage"
-    page name: "namePage", title: "Associate ZigBee Devices", install: true, uninstall: true
+    page name: "mainPage", title: "Bind ZigBee Devices", install: false, uninstall: true, nextPage: "namePage"
+    page name: "namePage", title: "Bind ZigBee Devices", install: true, uninstall: true
 }
 
 def installed() {
@@ -49,7 +49,7 @@ def initialize() {
 
 def mainPage() {
     dynamicPage(name: "mainPage") {
-        associationInputs()
+        bindInputs()
     }
 }
 
@@ -62,27 +62,27 @@ def namePage() {
 
     dynamicPage(name: "namePage") {
         if (overrideLabel) {
-            section("Association Name") {
+            section("Binding Name") {
                 label title: "Enter custom name", defaultValue: app.label, required: false
             }
         } else {
-            section("Association Name") {
+            section("Binding Name") {
                 paragraph app.label
             }
         }
         section {
-            input "overrideLabel", "bool", title: "Edit association name", defaultValue: "false", required: "false", submitOnChange: true
+            input "overrideLabel", "bool", title: "Edit binding name", defaultValue: "false", required: "false", submitOnChange: true
         }
     }
 }
 
 def defaultLabel() {
-    def associationLabel
-    associationLabel = deviceList[0].displayName + " Binding"
-    return associationLabel
+    def bindingLabel
+    bindingLabel = deviceList[0].displayName + " Binding"
+    return bindingLabel
 }
 
-def associationInputs() {
+def bindInputs() {
     section("Device(s)") {
         input "deviceList", "capability.configuration", title: "Bind these devices to each other", multiple: true, required: true, submitOnChange: true
     }
