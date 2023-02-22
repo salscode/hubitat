@@ -6,7 +6,7 @@
     "dateReleased": "2023-02-20",
     "apps" : [
         {
-            "id" : "cabc6faf-fd62-4a2d-aff9-78dcb39dd5e3",
+            "id" : "eec254ca-dd73-4592-b28d-06e7c878df9f",
             "name": "ZigBee Binding Tool",
             "namespace": "salscode",
             "location": "https://raw.githubusercontent.com/salscode/hubitat/main/apps/zigbee-binding/zigbee-binding-tool.groovy",
@@ -15,7 +15,7 @@
             "primary": true
         },
         {
-            "id" : "eaaef249-3202-4c22-a220-7bcc48407a9f",
+            "id" : "12f7daf3-6cbd-4af0-ae38-e4be0269e49e",
             "name": "ZigBee Binding",
             "namespace": "salscode",
             "location": "https://raw.githubusercontent.com/salscode/hubitat/main/apps/zigbee-binding/zigbee-binding.groovy",
