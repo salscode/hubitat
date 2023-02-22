@@ -4,6 +4,7 @@ definition(
     author: "Sal Sodano",
     description: "Create direct bindings between ZigBee devices.",
     category: "My Apps",
+    singleInstance: true,
     iconUrl: "",
     iconX2Url: "",
     iconX3Url: "")

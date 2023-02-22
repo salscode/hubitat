@@ -11,7 +11,6 @@ definition(
     author: "Sal Sodano",
     description: "Create direct bindings between ZigBee devices.",
     category: "My Apps",
-
     parent: "salscode:ZigBee Binding Tool",
     iconUrl: "",
     iconX2Url: "",
