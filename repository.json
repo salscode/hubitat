@@ -5,9 +5,15 @@
     "packages": [
         {
             "name": "ZigBee Binding Tool",
-            "category": "My Apps",
+            "category": "Utility",
             "location": "https://raw.githubusercontent.com/salscode/hubitat/main/apps/zigbee-binding-tool.json",
-            "description": "Create direct bindings between ZigBee devices."
+            "description": "Create direct bindings between ZigBee devices.",
+            "tags": [ 
+				"Lights & Switches",
+				"Tools & Utilities", 
+				"Utility", 
+				"Zigbee"
+			]
         }
     ]
  }

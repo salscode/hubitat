@@ -10,7 +10,7 @@ definition(
     namespace: "salscode",
     author: "Sal Sodano",
     description: "Create direct bindings between ZigBee devices.",
-    category: "My Apps",
+    category: "Utility",
     parent: "salscode:ZigBee Binding Tool",
     importUrl: "https://raw.githubusercontent.com/salscode/hubitat/main/apps/zigbee-binding/zigbee-binding.groovy",
     iconUrl: "",
